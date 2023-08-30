@@ -1,0 +1,45 @@
+.header{
+    background-color: brown;
+    height: 100px;
+    width: 100%;
+}
+
+.footer{
+    background-color:darkgreen;
+    height: 100px;
+    width: 100%;
+}
+.button {
+    background-color: #008CBA; /* Green */
+    border-radius: 10px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 130px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .logo{
+    height: 4rem;
+    width: 4rem;
+  }
+  h1{
+    z-index: 0;
+    text-align: justify;
+
+
+  }
+  .navbar{
+    z-index: 1;
+  }
+
+
+  .btn-primary{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 0;
+  }

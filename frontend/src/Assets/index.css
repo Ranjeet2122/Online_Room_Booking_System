@@ -1,0 +1,27 @@
+.carousel {
+  margin-left: 20%;
+  padding-top: 0px;
+  height: 350px;
+  padding-bottom: 0px;
+  width: 60%;
+}
+
+.nav-link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4;
+  font-weight: bold;
+  color: rgb(176, 11, 11);
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  .slider {
+    width: 100%;
+  }
+
+  .carousel {
+    width: 270px;
+    height: 100%;
+  }
+}
